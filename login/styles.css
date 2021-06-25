@@ -1,0 +1,138 @@
+
+.logo-section h1 {
+        color: white;
+        font-size: 44px;
+}
+.logo {
+    margin-top: 176px;
+}
+
+.login-form{
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 0px 5px 0px 5px;
+}
+.login-form .row:first-child {
+    margin-top: 34px;
+}
+.login-form label {
+    color: #B3E06C;
+    font-size: 29px;
+}
+.login-form .forgot-password {
+    color: white;
+    max-width: 463px;
+    font-size: 21px;
+    margin: 34px auto 0px auto;
+}
+
+.form-check {
+    margin-top: 15px;
+    padding-left: 30px !important;
+}
+.form-check input {
+    margin-top: 0px;
+}
+.form-control:focus:focus {
+    border-color: #B3E06C;
+    box-shadow: 0px 0px 0px 0.25rem #B3E06C;
+}
+.form-check-input:focus:focus {
+    border-color: #B3E06C;
+    box-shadow: none;
+}
+.form-check label {
+    font-size: 22px;
+    margin-left: 12px;
+}
+
+.form-check-input:focus:checked {
+    background-color: #B3E06C;
+    border-color: #B3E06C;
+}
+.form-check-input:checked {
+    background-color: #B3E06C !important;
+    border-color: #B3E06C !important;
+}
+
+.reset-password {
+    padding: 5px;
+    background-color: #7F43D0;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.reset-password:hover{
+    background-color: #6c38b1;
+}
+.login-button {
+    margin-top: 30px;
+    font-size: 48px;
+    color: white;
+    width: 95%;
+    background-color: #7AB856;
+    border: 1px solid #7AB856;
+    border-radius: 8px;
+    padding: 9px;
+}
+.login-button:hover {
+    background-color: #649746;
+}
+.copy-right {
+    color: white;
+    font-size: 14px;
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+
+
+@media only screen and (max-width: 615px) {
+    .logo {
+        max-width: 350px;
+    }
+    .logo-section h1{
+        font-size: 37px;
+    }
+    .login-form label {
+        font-size: 25px;
+    }
+    .login-button {
+        font-size: 40px;
+    }
+    .login-form { 
+        padding: 0px 35px 0px 35px;
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .logo {
+        max-width: 300px;
+    }
+    .green-top-circles {
+        left: 3px;
+        top: 10px;
+        width: 140px;
+    }
+    .green-down-circles {
+        right: -65px;
+    }
+    .login-form { 
+        padding: 0px 15px 0px 15px;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .logo {
+        max-width: 300px;
+    }
+    .green-top-circles {
+        left: 3px;
+        top: 10px;
+    }
+    .green-down-circles {
+        right: -95px;
+        width: 240px;
+    }
+  }
