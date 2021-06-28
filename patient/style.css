@@ -134,3 +134,34 @@
 .scribebrain-footer a {
     color: #B3E06C !important;
 }
+
+@media only screen and (max-width: 650px) {
+   .record-box .flex-row img{
+       width: 70px !important;
+   }
+  }
+
+@media only screen and (max-width: 650px) {
+    .record-box .flex-row img{
+        width: 50px !important;
+    }
+   }
+
+@media only screen and (max-width: 467px) {
+    .patient-history .flex-column:last-child {
+        margin-left: 20px;
+    }
+    .record-box {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .record-box .flex-row img{
+        width: 80px !important;
+    }
+    .record-box .flex-column:first-child {
+        width: 100% !important;
+    }
+    .record-box .flex-column:last-child {
+        width: 100% !important;
+    }
+   }

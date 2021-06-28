@@ -8,6 +8,19 @@
     overflow-x: hidden;
  }
 
+ #home-page {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ #home-page a{
+    color: white !important;
+    font-size: 25px;
+    text-decoration: overline !important; 
+}
+
  a {
      color: black !important;
      text-decoration: none !important;
