@@ -1,0 +1,214 @@
+*, html, body {
+    overflow: visible !important;
+}
+body {
+    background-color: #B3E06C !important;
+}
+
+.appointment {
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    padding: 13.5px;
+    min-width: 450px;
+    position: relative;
+    top: 25px;
+    font-size: 25px;
+    left: -4% !important;
+}
+.appointment span {
+    position: relative;
+    left: 12px;
+    color: #458111 !important;
+}
+.appointment a {
+    text-decoration: none !important;
+}
+.purple-top-circles {
+    z-index: -1;
+    top: 27px;
+}
+
+
+.exam-completed, .exam-submited {
+    font-size: 61px;
+    color: #52317E;
+    text-align: center;
+    margin-top: 250px;
+}
+.record-time {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 57px !important;
+}
+.record-time span:first-child {
+    color: #7F43D0;
+    margin-right: 7px;
+}
+.text-content {
+    padding: 10px 40px 10px 40px;
+    max-width: 700px;
+    margin-inline: auto;
+    font-size: 30px;
+    font-size: 30px;
+    margin-top: 57px !important;
+    padding: 10px 95px 10px 93px;
+}
+.buttons {
+    padding-bottom: 400px;
+}
+.back-button, .send-button, .return-appointment-button {
+    width: 313px;
+    height: 85px;
+    margin-top: 50px;
+    color: white;
+    font-size: 26px;
+    border: none;
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.38));
+}
+.send-button, .return-appointment-button {
+    background-color: #458111;
+    margin-left: 25px;
+}
+.back-button {
+    background-color: #B91414;
+}
+.return-appointment-button {
+    width: 450px;
+    height: 157px;
+    font-size: 33px;
+    margin-top: 100px;
+}
+
+textarea {
+    width: 90%;
+    border: none;
+    margin-top: 50px !important;
+    padding: 5px 10px;
+    max-width: 700px;
+}
+textarea:focus-visible {
+    outline: #B3E06C auto 1px;
+}
+
+.exam-submited +.text-content {
+    margin-top: 60px !important;
+}
+
+#abonding-page .container {
+    font-size: 62px;
+    color: #52317E;
+}
+#abonding-page .container div:first-child {
+    width: 640px;
+    margin: 250px auto 0px auto;
+}
+
+@media only screen and (max-width: 790px) {
+    .buttons button{
+        margin-left: 0px;
+        width: 90%;
+    }
+    .navbar div:nth-child(2) {
+        left: 50px;
+    }
+    #submit-page .navbar div:nth-child(2) {
+        left: 0px;
+    }
+    .purple-top-circles {
+        top: 90px;
+    }
+    .purple-down-circles {
+        right: 0px !important;
+    }
+    .appointment {
+        margin-inline: auto;
+        min-width: 50% !important;
+        left: -4% !important;
+    }
+  }
+
+  @media only screen and (max-width: 775px) {
+    #abonding-page .container div:first-child {
+        font-size: 54px;
+        width: 85% !important;
+    }
+  }
+
+  @media only screen and (max-width: 630px) {
+    .appointment {
+        font-size: 20px !important;
+        min-width: 25% !important;
+    }
+    .navbar {
+        padding: 10px 30px !important;
+    }
+  }
+
+  @media only screen and (max-width: 580px) {
+    .exam-completed {
+        margin-top: 150px !important;
+    }
+    .exam-submited {
+        margin-top: 130px !important;
+    }
+    .navbar div {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        left: 0px !important;
+    }
+    .appointment {
+        font-size: 20px !important;
+        min-width: 100% !important;
+        top: 0px;
+    }
+    #submit-page .purple-top-circles {
+        top: 50px;
+    }
+    }
+
+@media only screen and (max-width: 480px) {
+    #abonding-page .container div:first-child {
+        font-size: 45px;
+    }
+    .exam-completed, .exam-submited {
+        font-size: 50px;
+        margin-top: 150px !important;
+    }
+    .text-content {
+        font-size: 24px;
+        padding: 10px 40px;
+    }
+    .buttons button{
+        margin-left: 0px;
+        width: 90%;
+    }
+    .navbar div {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .appointment {
+        top: 0px;
+    }
+    .purple-top-circles {
+        top: 90px;
+    }
+    #submit-page .purple-top-circles {
+        top: 40px;
+    }
+    .purple-down-circles {
+        right: 0px !important;
+    }
+    .appointment {
+        min-width: 80%;
+        margin-inline: auto;
+    }
+  }
+  @media only screen and (max-width: 362px) {
+      .purple-top-circles {
+          top: 130px;
+      }
+  }

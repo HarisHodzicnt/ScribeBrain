@@ -1,0 +1,136 @@
+#patient-details {
+    background: #E5E5E5 !important;
+}
+#patient-details .container-fluid {
+    padding: 0px 27px 25px 27px;
+    margin: 0px auto;
+    margin-top: 77px;
+    text-align: left;
+}
+.patient-info {
+    font-size: 27px;
+    line-height: 32px;
+    color: #52317E;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.patient-history {
+    font-size: 23px;
+    color: #52317E;
+    display: flex;
+    filter: drop-shadow(0px 9px 20px rgba(0, 0, 0, 0.38));
+    background-color: white;
+    padding: 19px 25px 35px 23px;
+    margin-top: 56px;
+}
+.sub-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;
+}
+.patient-history span {
+    font-size: 20px;
+    color: black;
+    position: relative;
+    left: 15px;
+}
+.vitals span, .probable-conditions span, .conditions span {
+    display: block;
+}
+.sub-header:nth-child(5) {
+    margin-top: 95px !important;
+}
+.vitals {
+    margin-bottom: 10px;
+}
+.probable-conditions {
+    color: black;
+    margin-bottom: 30px;
+}
+.probable-conditions li {
+    list-style-type: none;
+    position: relative;
+}
+.probable-conditions li::before {
+    content:'.';
+    font-size: 36px;
+    position: absolute;
+    top: -22px;
+    left: -15px;
+}
+.flex-column:first-child {
+    width: 55%;
+}
+.flex-column:last-child {
+    width: 45%;
+}
+.vitals, #note, .probable-conditions {
+    margin-top: 20px !important;
+}
+#note {
+    border: 2px solid #707070;
+    font-size: 20px;
+}
+
+.record {
+    margin-top: 54px;
+}
+.record .header {
+    color: #7F43D0;
+    font-size: 37px;
+}
+.record .sub-header {
+    margin: 0px !important;
+    color: #52317E;
+    font-size: 23px;
+}
+.record-box {
+    display: flex;
+    margin-top: 14px;
+    filter: drop-shadow(0px 9px 20px rgba(0, 0, 0, 0.38));
+    background: white;
+    padding: 0px 0px 25px 12px;
+    height: 324px;
+    align-items: center;
+}
+
+.record-box .flex-column{
+    text-align: center;
+}
+.record-box .flex-column:first-child {
+    width: 45%;
+}
+.record-box .flex-column:last-child {
+    width: 55%;
+}
+.record-box .flex-column .flex-row {
+    justify-content: space-evenly;
+    margin-top: 19px;
+}
+.record-box .flex-column .flex-row img {
+    cursor: pointer;
+}
+#mic {
+    margin-top: 67px;
+}
+#scribebrain-record {
+    margin-top: 40px;
+}
+.scribebrain-footer {
+    background-color: #52317E;
+    font-size: 25px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62px;
+    border-radius: 8px;
+    position: relative;
+    bottom: -27px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.scribebrain-footer a {
+    color: #B3E06C !important;
+}
