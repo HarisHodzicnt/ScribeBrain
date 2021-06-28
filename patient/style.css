@@ -113,7 +113,7 @@
 }
 #mic {
     margin-top: 67px;
-    position: relative;
+    cursor: pointer;
 }
 #scribebrain-record {
     margin-top: 40px;
