@@ -12,3 +12,4 @@ const handleStop = () => {
     document.getElementById('mic').src = '../assets/mic-red.png';
     document.getElementById('scribebrain-record').src = '../assets/scribebrain-not-recording.png';
 }
+

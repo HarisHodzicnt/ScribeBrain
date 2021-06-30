@@ -67,7 +67,7 @@
     text-align: left;
 }
 .patient-box .flex-row span {
-    width: 30%;
+    width: 35%;
     display: inline-block;
 }
 
@@ -77,23 +77,31 @@
     color: black;
 }
 
+.box-header span:last-child {
+    text-align: right;
+}
+
 .arrived {
     font-size: 20px;
     color: #52317E;
+    text-align: right;
 }
 
 .scheduled {
     font-size: 19px;
     color: #28B25F;
+    text-align: right;
 }
 .cancelled {
     font-size: 23px;
     color: #F6470F;
+    text-align: right;
 }
 
 .completed {
     font-size: 23px;
     color: #909196;
+    text-align: right;
 }
 
 @media only screen and (max-width: 600px) {

@@ -122,6 +122,82 @@
     cursor: pointer;
     width: 150px;
 }
+#bars {
+    height: 57px;
+    left: 44%;
+    margin: -30px 0 0 -20px;
+    position: absolute;
+    top: 50%;
+    width: 150px;
+}
+
+#bars2 {
+    height: 57px;
+    left: 51%;
+    margin: -30px 0 0 -20px;
+    position: absolute;
+    top: 50%;
+    width: 150px;
+}
+
+.bar {
+   background: #eb673a;
+    bottom: 1px;
+    height: 3px;
+    position: absolute;
+    width: 8px;      
+    animation: sound 0ms -800ms linear infinite alternate;
+}
+
+.bar2 {
+    background: #f1963f;
+     bottom: 1px;
+     height: 0px;
+     position: absolute;
+     left: 5px;
+     width: 10px;      
+     animation: sound 0ms -800ms linear infinite alternate;
+ }
+
+ 
+
+@keyframes sound {
+    0% {
+       opacity: .35;
+       height: 50px; 
+    }
+    100% {
+        opacity: 1;       
+        height: 28px;        
+    }
+}
+
+#bars3, #bars4 {
+    transform: rotate(160deg);
+}
+
+.bar:nth-child(1)  { left: 0px; animation-duration: 874ms; }
+.bar:nth-child(2)  { left: 8px; animation-duration: 733ms; }
+.bar:nth-child(3)  { left: 16px; animation-duration: 807ms; }
+.bar:nth-child(4)  { left: 24px; animation-duration: 858ms; }
+.bar:nth-child(5)  { left: 32px; animation-duration: 700ms; }
+.bar:nth-child(6)  { left: 40px; animation-duration: 827ms; }
+.bar:nth-child(7)  { left: 48px; animation-duration: 741ms; }
+.bar:nth-child(8)  { left: 56px; animation-duration: 819ms; }
+.bar:nth-child(9)  { left: 64px; animation-duration: 787ms; }
+.bar:nth-child(10) { left: 72px; animation-duration: 842ms; }​
+
+.bar2:nth-child(1)  { left: 4px; animation-duration: 874ms; }
+.bar2:nth-child(2)  { left: 10px; animation-duration: 733ms; }
+.bar2:nth-child(3)  { left: 20px; animation-duration: 807ms; }
+.bar2:nth-child(4)  { left: 25px; animation-duration: 858ms; }
+.bar2:nth-child(5)  { left: 35px; animation-duration: 700ms; }
+.bar2:nth-child(6)  { left: 41px; animation-duration: 827ms; }
+.bar2:nth-child(7)  { left: 47px; animation-duration: 741ms; }
+.bar2:nth-child(8)  { left: 56px; animation-duration: 819ms; }
+.bar2:nth-child(9)  { left: 66px; animation-duration: 787ms; }
+.bar2:nth-child(10) { left: 72px; animation-duration: 842ms; }​
+
 #scribebrain-record {
     margin-top: 40px;
 }
@@ -143,6 +219,36 @@
     color: #B3E06C !important;
 }
 
+@media only screen and (max-width: 1100px) {
+    #bars {
+        left: 43%;
+    }
+   }
+
+@media only screen and (max-width: 1075px) {
+    #bars {
+        left: 41.5%;
+    }
+   }
+
+@media only screen and (max-width: 890px) {
+    #bars {
+        left: 42%;
+    }
+    #bars2 {
+        left: 50%;
+    }
+   }
+
+@media only screen and (max-width: 730px) {
+    #bars {
+        left: 39%;
+    }
+    #bars2 {
+        left: 50%;
+    }
+   }
+
 @media only screen and (max-width: 650px) {
    .record-box .flex-row img{
        width: 70px !important;
@@ -155,6 +261,12 @@
     }
    }
 
+@media only screen and (max-width: 600px) {
+    #bars {
+        left: 37%;
+    }
+   }
+
 @media only screen and (max-width: 467px) {
     .patient-history .flex-column:last-child {
         margin-left: 20px;
@@ -162,6 +274,7 @@
     .record-box {
         flex-wrap: wrap;
         height: auto;
+        flex-direction: column-reverse;
     }
     .record-box .flex-row img{
         width: 80px !important;
@@ -171,5 +284,11 @@
     }
     .record-box .flex-column:last-child {
         width: 100% !important;
+    }
+    #bars {
+        left: 39%;
+    }
+    #bars2 {
+        left: 50%;
     }
    }
