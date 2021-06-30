@@ -93,13 +93,13 @@
     text-align: right;
 }
 .cancelled {
-    font-size: 23px;
+    font-size: 19px;
     color: #F6470F;
     text-align: right;
 }
 
 .completed {
-    font-size: 23px;
+    font-size: 19px;
     color: #909196;
     text-align: right;
 }
