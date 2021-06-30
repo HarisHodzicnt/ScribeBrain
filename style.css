@@ -66,6 +66,9 @@ body {
 .hide {
     display: none;
 }
+#scribebrain-record {
+    margin-top: 40px !important;
+}
 
 .hide .bar{
     display: none;
