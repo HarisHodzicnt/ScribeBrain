@@ -56,6 +56,21 @@ body {
     bottom: 0px;
 }
 
+.show {
+    display: block;
+}
+.show .bar{
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.hide .bar{
+    display: none;
+}
+
 .text-center {
     text-align: center;
 }
