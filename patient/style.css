@@ -156,12 +156,12 @@
      position: absolute;
      left: 5px;
      width: 10px;      
+     animation: sound 0ms -800ms linear infinite alternate;
  }
-
- .playing {
-    animation: sound 0ms -800ms linear infinite alternate;
- }
-
+ .paused {
+    animation-play-state: paused;
+  }
+  
 @keyframes sound {
     0% {
        opacity: .35;
