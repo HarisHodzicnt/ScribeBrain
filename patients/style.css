@@ -78,21 +78,21 @@
 }
 
 .arrived {
-    font-size: 17px;
+    font-size: 20px;
     color: #52317E;
 }
 
 .scheduled {
-    font-size: 17px;
+    font-size: 19px;
     color: #28B25F;
 }
 .cancelled {
-    font-size: 17px;
+    font-size: 23px;
     color: #F6470F;
 }
 
 .completed {
-    font-size: 17px;
+    font-size: 23px;
     color: #909196;
 }
 

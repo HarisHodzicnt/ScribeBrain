@@ -7,11 +7,15 @@
     margin-top: 77px;
     text-align: left;
 }
+.title-1 {
+    color: #7F43D0;
+    font-size: 37px;
+    margin-top: 20px;
+}
 .patient-info {
     font-size: 27px;
     line-height: 32px;
     color: #52317E;
-    padding-left: 15px;
     padding-right: 15px;
 }
 .patient-history {
@@ -21,7 +25,8 @@
     filter: drop-shadow(0px 9px 20px rgba(0, 0, 0, 0.38));
     background-color: white;
     padding: 19px 25px 35px 23px;
-    margin-top: 56px;
+    margin-top: 10px;
+    border-radius: 13px;
 }
 .sub-header {
     font-size: 20px;
@@ -93,6 +98,7 @@
     padding: 0px 0px 25px 12px;
     height: 324px;
     align-items: center;
+    border-radius: 13px;
 }
 
 .record-box .flex-column{
@@ -114,6 +120,7 @@
 #mic {
     margin-top: 67px;
     cursor: pointer;
+    width: 150px;
 }
 #scribebrain-record {
     margin-top: 40px;
